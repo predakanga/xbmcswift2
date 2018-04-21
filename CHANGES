@@ -1,3 +1,9 @@
+0.3.1
+=====
+
+- Fixed request parameters being ignored on Kodi 18 (Leia)
+
+
 0.3
 ===
 
