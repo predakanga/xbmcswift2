@@ -20,15 +20,16 @@ from fabric.api import *
 import fabric.colors as colors
 
 
-EDITOR = 'vim'
+EDITOR = 'nano'
 REPO_DIR = 'xbmcswift2-xbmc-dist'
-REPO_URL = 'git@github.com:jbeluch/xbmcswift2-xbmc-dist.git'
-REPO_PUBLIC_URL = 'git://github.com/jbeluch/xbmcswift2-xbmc-dist.git'
+REPO_URL = 'git@github.com:predakanga/xbmcswift2-xbmc-dist.git'
+REPO_PUBLIC_URL = 'git://github.com/predakanga/xbmcswift2-xbmc-dist.git'
 BRANCHES = {
     # <xbmc_version>: <git_branch>
     'DHARMA': 'dharma',
     'EDEN': 'eden',
-    'FRODO': 'master',
+    'FRODO': 'frodo',
+    'LEIA': 'master',
 }
 
 
